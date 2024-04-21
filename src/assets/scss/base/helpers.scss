@@ -1,0 +1,14 @@
+.flex {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+li{
+    list-style-type: none;
+}
+
+body{
+    max-width: 60vw;
+    margin: auto;
+}

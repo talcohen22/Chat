@@ -1,0 +1,29 @@
+.chat-container{
+
+    .title{
+        font-size: 20px;
+        text-align: center;
+        margin: 40px;
+    }
+
+    .chat-input {
+        width: 100%; 
+        padding: 10px; 
+        border: 1px solid #ccc; 
+        border-radius: 20px; 
+        font-size: 16px; 
+        font-family: system-ui;
+        outline: none; 
+        transition: border-color 0.3s; 
+    }
+    
+    .chat-input:hover {
+        border-color: #aaa; 
+    }
+    
+    .chat-input:focus {
+        border-color: #007bff; 
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+    }
+
+}

@@ -1,0 +1,18 @@
+.message-container {
+
+    background-color: #e1eef1;
+    padding-inline: 10px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+
+    .message-time {
+        color: gray;
+        margin-inline-start: 20px;
+
+        * {
+            font-size: 12px;
+            font-family: system-ui;
+        }
+    }
+
+}
