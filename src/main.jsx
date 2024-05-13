@@ -13,9 +13,7 @@ const client2 = {
 const client = new Ably.Realtime('Pns68A.YZZ_rg:7kRIzyMgEs_ZtiQL');
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
     <AblyProvider client={client}>
       <App />
-    </AblyProvider>
-  </React.StrictMode>,
+    </AblyProvider>,
 )
